@@ -47,6 +47,7 @@
       <tr>
          <th colspan="2"><button type="button">Submit</button>
             <button type="button">Reset</button>
+	     <button type="button">Forgot Password</button>
          </th>
       </tr>
 
