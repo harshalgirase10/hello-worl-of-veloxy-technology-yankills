@@ -15,7 +15,7 @@
       </tr>
 
       <tr align="center" style="background-color: white;">
-         <th colspan="2">Sign Up Page</th>
+         <th colspan="2">vhyaycha tr ho BC</th>
       </tr>
 
       <tr align="center" style="background-color: green;">
