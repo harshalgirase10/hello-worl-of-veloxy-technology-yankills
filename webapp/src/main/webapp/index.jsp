@@ -23,7 +23,7 @@
       </tr>
 
       <tr>
-         <th><label for="">naav sang re oh  : </label></th>
+         <th><label for="">Name Please: </label></th>
          <th><input type="text"></th>
       </tr>
 
