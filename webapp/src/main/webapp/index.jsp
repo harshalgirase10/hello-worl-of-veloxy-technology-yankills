@@ -54,4 +54,5 @@
    </table>
 </body>
 <h1> Thank You Guys</h1>
+<img src="img_chania.jpg" alt="Flowers in Chania" width="460" height="345">
 </html>
