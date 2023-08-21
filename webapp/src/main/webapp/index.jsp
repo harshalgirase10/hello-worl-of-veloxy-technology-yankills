@@ -18,7 +18,7 @@
          <th colspan="2">Sign UP</th>
       </tr>
 
-      <tr align="center" style="background-color: red;">
+      <tr align="center" style="background-color: green;">
          <th colspan="2">Sign Up</th>
       </tr>
 
