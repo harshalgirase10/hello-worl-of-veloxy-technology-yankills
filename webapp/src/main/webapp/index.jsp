@@ -14,7 +14,7 @@
 	      <th colspan="2"> Jai Hind Jai Bharat </th>
       </tr>
 
-      <tr align="center" style="background-color: white;">
+      <tr align="center" style="background-color: yellow;">
          <th colspan="2">Sign UP</th>
       </tr>
 
