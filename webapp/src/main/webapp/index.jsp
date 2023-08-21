@@ -10,15 +10,15 @@
 
 <body>
    <table border="1px solid black" ; width="45%">
-      <tr align="center" style="background-color: pink;">
+      <tr align="center" style="background-color: green;">
 	      <th colspan="2"> Jai Hind Jai Bharat </th>
       </tr>
 
-      <tr align="center" style="background-color: pink;">
+      <tr align="center" style="background-color: green;">
          <th colspan="2">Sign UP</th>
       </tr>
 
-      <tr align="center" style="background-color: pink;">
+      <tr align="center" style="background-color: green;">
          <th colspan="2">Sign Up</th>
       </tr>
 
