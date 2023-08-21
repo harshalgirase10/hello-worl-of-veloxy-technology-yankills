@@ -10,7 +10,7 @@
 
 <body>
    <table border="1px solid black" ; width="45%">
-      <tr align="center" style="background-color: white;">
+      <tr align="center" style="background-color: red;">
 	      <th colspan="2"> Jai Hind Jai Bharat </th>
       </tr>
 
