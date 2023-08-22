@@ -14,7 +14,7 @@
 	      <th colspan="2"> Jai Hind Jai Bharat </th>
       </tr>
 
-      <tr align="center" style="background-color: yellow;">
+      <tr align="center" style="background-color: white;">
          <th colspan="2">Sign UP</th>
       </tr>
 
@@ -23,15 +23,18 @@
       </tr>
 
       <tr>
-         <th><label for="">Name Please: </label></th>
+         <th><label for="">Name: </label></th>
          <th><input type="text"></th>
       </tr>
 
       <tr>
-         <th><label for="">MObile No : </label></th>
+         <th><label for="">Mobile No : </label></th>
          <th><input type="number"></th>
       </tr>
-
+      <tr>
+         <th><label for="">Address: </label></th>
+         <th><input type="text"></th>
+      </tr>
       <tr>
          <th><label for="">Gender</label></th>
          <th><input type="radio" name="gender">Male
