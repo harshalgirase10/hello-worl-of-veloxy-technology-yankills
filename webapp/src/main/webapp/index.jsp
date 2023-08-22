@@ -56,5 +56,8 @@
 
    </table>
 </body>
+<style>
+h1 {text-align: center;}
+</style>
 <h1> Thank You Guys</h1>
 </html>
