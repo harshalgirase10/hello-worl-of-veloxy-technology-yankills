@@ -59,5 +59,5 @@
 <style>
 h1 {text-align: center;}
 </style>
-<h1> Thank You Guys</h1>
+<h1> Thank You Everyone</h1>
 </html>
