@@ -1,0 +1,7 @@
+---
+- name: Verify connection to EC2 Windows Server
+  hosts: windows
+  gather_facts: no
+  tasks:
+    - name: Ping the Windows server
+      win_ping:
