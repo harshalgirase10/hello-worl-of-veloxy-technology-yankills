@@ -8,7 +8,7 @@ on:
 
 jobs:
   ansible:
-    runs-on: windows-latest  # Use a Linux runner for Ansible compatibility
+    runs-on: ubuntu-latest  # Use a Linux runner for Ansible compatibility
 
     steps:
     - name: Checkout the repository
@@ -27,4 +27,8 @@ jobs:
     - name: Configure Inventory File
       run: |
         echo "[windows]" > inventory.ini
-        echo "${{ EC2_IP }} ansible_user=Administrator ansible_password=${{EC2_PASSWORD }} ansible_connection=winrm ansible_winrm_transport=basic ansible_port=5986 ansible_winrm_server_cert_validation=
+        echo "${{ EC2_IP }} ansible_user=Administrator ansible_password=${{ EC2_PASSWORD }} ansible_connection=winrm ansible_winrm_transport=basic ansible_port=5986 ansible_winrm_server_cert_validation=ignore" >> inventory.ini
+
+    - name: Run Ansible Playbook
+      run: |
+        ansible-playbook -i inventory.ini verify_connection.yml
