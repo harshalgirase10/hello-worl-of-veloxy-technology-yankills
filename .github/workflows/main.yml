@@ -27,4 +27,4 @@ jobs:
     - name: Configure Inventory File
       run: |
         echo "[windows]" > inventory.ini
-        echo "${{ secrets.EC2_IP }} ansible_user=Administrator ansible_password=${{ secrets.EC2_PASSWORD }} ansible_connection=winrm ansible_winrm_transport=basic ansible_port=5986 ansible_winrm_server_cert_validation=
+        echo "${{ EC2_IP }} ansible_user=Administrator ansible_password=${{EC2_PASSWORD }} ansible_connection=winrm ansible_winrm_transport=basic ansible_port=5986 ansible_winrm_server_cert_validation=
