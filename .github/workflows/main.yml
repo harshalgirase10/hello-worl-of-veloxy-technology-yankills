@@ -3,7 +3,7 @@ name: Trigger Ansible Playbook
 on:
   push:
     branches:
-      - main  # Change this to your desired deployment branch
+      - master  # Change this to your desired deployment branch
   workflow_dispatch:
 
 jobs:
